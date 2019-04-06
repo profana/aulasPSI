@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package leticiacoelho;
+package anaesteves;
 
 import java.util.Scanner;
 
 /**
  *
- * @author al.leticiacoelho
+ * @author ana esteves
  */
 public class Caes extends veterinario{
     private String raca;
