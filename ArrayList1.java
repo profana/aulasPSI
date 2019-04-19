@@ -20,11 +20,12 @@ public class ArrayList1 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-          ArrayList <Contato> contactos = new ArrayList (); 
+        //Criar um arraylist
+        ArrayList <Contato> contactos = new ArrayList ();
           
           Contato contato = new Contato();
          
-          contato.setNome("kAna Esteves");
+          contato.setNome("Ana Esteves");
           contato.setEmail("aaa@gmail.com");
           contato.setTelefone(25135478);
           
@@ -32,12 +33,10 @@ public class ArrayList1 {
           
           Contato contato1 = new Contato();
          
-          contato1.setNome("Camila Pinto");
-          contato1.setEmail("camilaP@gmail.com");
-          contato1.setTelefone(251234528);
-          
+
           contactos.add(contato1);
-                 
+
+          //Ciclo para percorrer o arraylist
           for(Contato c: contactos){
             System.out.println(c.getNome());
           }
