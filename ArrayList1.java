@@ -23,22 +23,20 @@ public class ArrayList1 {
         //Criar um arraylist
         ArrayList <Contato> contactos = new ArrayList ();
           
+          // adicionar contato
           Contato contato = new Contato();
-         
           contato.setNome("Ana Esteves");
           contato.setEmail("aaa@gmail.com");
-          contato.setTelefone(25135478);
-          
+          contato.setTelefone(251000111);
           contactos.add(contato);
           
+          // adicionar contato1
           Contato contato1 = new Contato();
-         
-
           contactos.add(contato1);
 
           //Ciclo para percorrer o arraylist
           for(Contato c: contactos){
-            System.out.println(c.getNome());
+            System.out.println(c.getNome(), c.getEmail());
           }
         
           //Total de items da lista
